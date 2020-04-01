@@ -1,0 +1,45 @@
+object LangForm: TLangForm
+  Left = 384
+  Height = 128
+  Top = 286
+  Width = 260
+  BorderStyle = bsDialog
+  Caption = 'Language'
+  ClientHeight = 128
+  ClientWidth = 260
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '1.6.2.0'
+  object OkBtn: TBitBtn
+    Left = 178
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = OkBtnClick
+    TabOrder = 1
+  end
+  object CancelBtn: TBitBtn
+    Left = 178
+    Height = 25
+    Top = 40
+    Width = 75
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object LangListBox: TListBox
+    Left = 8
+    Height = 113
+    Top = 8
+    Width = 160
+    ExtendedSelect = False
+    ItemHeight = 30
+    OnDrawItem = LangListBoxDrawItem
+    Style = lbOwnerDrawFixed
+    TabOrder = 0
+  end
+end
