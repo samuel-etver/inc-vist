@@ -1,0 +1,97 @@
+object VistViewFrame: TVistViewFrame
+  Left = 0
+  Height = 373
+  Top = 0
+  Width = 710
+  ClientHeight = 373
+  ClientWidth = 710
+  TabOrder = 0
+  DesignLeft = 502
+  DesignTop = 415
+  object PairSplitter1: TPairSplitter
+    Cursor = crDefault
+    Left = 0
+    Height = 356
+    Top = 0
+    Width = 710
+    Align = alClient
+    Position = 200
+    SplitterType = pstVertical
+    object PairSplitterSide1: TPairSplitterSide
+      Cursor = crArrow
+      Left = 0
+      Height = 200
+      Top = 0
+      Width = 710
+      ClientWidth = 710
+      ClientHeight = 200
+      object DataDrawGrid: TDrawGrid
+        Left = 0
+        Height = 200
+        Top = 0
+        Width = 710
+        Align = alClient
+        AlternateColor = 13828095
+        ColCount = 11
+        DefaultColWidth = 54
+        DefaultRowHeight = 18
+        ExtendedSelect = False
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goColSizing, goSmoothScroll, goRowHighlight]
+        TabOrder = 0
+      end
+    end
+    object PairSplitterSide2: TPairSplitterSide
+      Cursor = crArrow
+      Left = 0
+      Height = 151
+      Top = 205
+      Width = 710
+      ClientWidth = 710
+      ClientHeight = 151
+      object CommentLbl: TLabel
+        Left = 0
+        Height = 13
+        Top = 0
+        Width = 710
+        Align = alTop
+        Caption = ' Comment:'
+        ParentColor = False
+        ParentFont = False
+      end
+      object CommentMemo: TMemo
+        Left = 0
+        Height = 138
+        Top = 13
+        Width = 710
+        Align = alClient
+        ScrollBars = ssAutoBoth
+        TabOrder = 0
+        WordWrap = False
+      end
+    end
+  end
+  inline NavFrame: TNavigatorFrame
+    Height = 17
+    Top = 356
+    Width = 710
+    Align = alBottom
+    ClientHeight = 17
+    ClientWidth = 710
+    TabOrder = 1
+    inherited FirstBtn: TSpeedButton
+      Height = 17
+    end
+    inherited PriorBtn: TSpeedButton
+      Height = 17
+    end
+    inherited NextBtn: TSpeedButton
+      Height = 17
+    end
+    inherited LastBtn: TSpeedButton
+      Height = 17
+    end
+    inherited DeleteBtn: TSpeedButton
+      Height = 17
+    end
+  end
+end

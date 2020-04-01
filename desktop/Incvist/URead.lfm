@@ -1,0 +1,50 @@
+object ReadForm: TReadForm
+  Left = 1490
+  Height = 91
+  Top = 390
+  Width = 320
+  BorderStyle = bsDialog
+  Caption = 'Reading'
+  ClientHeight = 91
+  ClientWidth = 320
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '1.6.2.0'
+  object CancelBtn: TButton
+    Left = 123
+    Height = 25
+    Top = 56
+    Width = 75
+    Cancel = True
+    Caption = 'Cancel'
+    Default = True
+    OnClick = CancelBtnClick
+    TabOrder = 0
+  end
+  object ReadProgressBar: TProgressBar
+    Left = 8
+    Height = 20
+    Top = 24
+    Width = 304
+    TabOrder = 1
+  end
+  object ReadLbl: TLabel
+    Left = 126
+    Height = 13
+    Top = 8
+    Width = 68
+    Alignment = taCenter
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'Read: 0 bytes'
+    ParentColor = False
+  end
+  object ProgressTimer: TTimer
+    Interval = 100
+    OnTimer = ProgressTimerTimer
+    left = 8
+    top = 56
+  end
+end

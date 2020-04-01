@@ -1,0 +1,46 @@
+object MemDumpForm: TMemDumpForm
+  Left = 387
+  Height = 515
+  Top = 207
+  Width = 371
+  Caption = 'MemDumpForm'
+  ClientHeight = 515
+  ClientWidth = 371
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.6.0.4'
+  object MemDumpGrid: TDrawGrid
+    Left = 0
+    Height = 515
+    Top = 0
+    Width = 371
+    Align = alClient
+    AlternateColor = clBtnFace
+    ColCount = 9
+    DefaultColWidth = 36
+    DefaultRowHeight = 19
+    ExtendedSelect = False
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goThumbTracking, goSmoothScroll]
+    PopupMenu = PopupMenu1
+    TabOrder = 0
+    OnDrawCell = MemDumpGridDrawCell
+  end
+  object PopupMenu1: TPopupMenu
+    left = 32
+    top = 120
+    object ClearMenuItem: TMenuItem
+      Caption = 'Clear'
+      OnClick = ClearMenuItemClick
+    end
+    object SetMenuItem: TMenuItem
+      Caption = 'Set'
+      OnClick = SetMenuItemClick
+    end
+    object UpdateMenuItem: TMenuItem
+      Caption = 'Update'
+      OnClick = UpdateMenuItemClick
+    end
+  end
+end

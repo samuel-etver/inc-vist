@@ -1,0 +1,45 @@
+object FileNameFrame: TFileNameFrame
+  Left = 0
+  Height = 23
+  Top = 0
+  Width = 486
+  ClientHeight = 23
+  ClientWidth = 486
+  TabOrder = 0
+  DesignLeft = 455
+  DesignTop = 412
+  object Panel1: TPanel
+    Left = 0
+    Height = 24
+    Top = -1
+    Width = 485
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ClientHeight = 24
+    ClientWidth = 485
+    Color = clBlack
+    ParentColor = False
+    TabOrder = 0
+    object CaptionLbl: TLabel
+      Left = 8
+      Height = 13
+      Top = 6
+      Width = 23
+      Caption = 'File: '
+      Font.Color = clWhite
+      ParentColor = False
+      ParentFont = False
+    end
+    object FileNameLbl: TLabel
+      Left = 48
+      Height = 13
+      Top = 6
+      Width = 44
+      Caption = '  <Path>'
+      Font.Color = clWhite
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+end
