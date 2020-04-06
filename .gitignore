@@ -2,7 +2,10 @@
 backup
 desktop/IncvistPicture/lib
 desktop/Incvist/lib
+device/sim/lib
 
 *.exe
+*.dll
+incvist.archive
 
 .jython_cache

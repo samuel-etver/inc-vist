@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="25">
+      <Unit0>
+        <Filename Value="incvist.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="13"/>
+        <UsageCount Value="205"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="UMainForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="161"/>
+        <CursorPos X="17" Y="175"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="UDeviceThread.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="33"/>
+        <UsageCount Value="205"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="UGlobal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="5"/>
+        <CursorPos X="9" Y="26"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="UDevice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="150"/>
+        <CursorPos X="28" Y="165"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="UArchiveMemForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ArchiveMemForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="308"/>
+        <CursorPos X="42" Y="323"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="UMemJumpForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MemJumpForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="68"/>
+        <CursorPos X="19" Y="81"/>
+        <UsageCount Value="200"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="UMemSearchForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MemSearchForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos Y="155"/>
+        <UsageCount Value="203"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="UMemFillForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MemFillForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="205"/>
+        <CursorPos X="63" Y="220"/>
+        <UsageCount Value="202"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="UDeviceVarsForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DeviceVarsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="udevicevarsform"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="181"/>
+        <CursorPos X="18" Y="191"/>
+        <UsageCount Value="200"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="UDeviceVars.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos X="22" Y="79"/>
+        <UsageCount Value="200"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="UTypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="13"/>
+        <UsageCount Value="128"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="umeasureform.pas"/>
+        <ComponentName Value="MeasureForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="123"/>
+        <CursorPos X="32" Y="145"/>
+        <UsageCount Value="144"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="ULcdX2Form.pas"/>
+        <ComponentName Value="LcdX2Form"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="21"/>
+        <CursorPos Y="65"/>
+        <UsageCount Value="164"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="UMemBytesCountForm.pas"/>
+        <ComponentName Value="MemBytesCountForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos X="46" Y="9"/>
+        <UsageCount Value="2"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="umemfillprogressform.pas"/>
+        <ComponentName Value="MemFillProgressForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="48"/>
+        <CursorPos X="29" Y="62"/>
+        <UsageCount Value="4"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="91"/>
+        <CursorPos X="3" Y="110"/>
+        <UsageCount Value="20"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\DOCUME~1\smn\LOCALS~1\Temp\_tc\fb-0\Geom.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <UsageCount Value="6"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="umainform.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\DOCUME~1\smn\LOCALS~1\Temp\Временная папка 1 для dn151src.zip\FILESCOL.PAS"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\DOCUME~1\smn\LOCALS~1\Temp\Временная папка 2 для dn151src.zip\STARSKY.PAS"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="341"/>
+        <UsageCount Value="6"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\DOCUME~1\smn\LOCALS~1\Temp\Временная папка 3 для dn151src.zip\COPY.PAS"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="386"/>
+        <UsageCount Value="6"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\DOCUME~1\smn\LOCALS~1\Temp\Временная папка 4 для dn151src.zip\DISKINFO.PAS"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="170"/>
+        <UsageCount Value="6"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\DOCUME~1\smn\LOCALS~1\Temp\Временная папка 5 для dn151src.zip\SCROLLBK.PAS"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <UsageCount Value="6"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="UDeviceVarsForm.lfm"/>
+        <ComponentName Value="DeviceVarsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="23"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit24>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="389" Column="37" TopLine="365"/>
+      </Position1>
+      <Position2>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="167" TopLine="155"/>
+      </Position2>
+      <Position3>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="434" Column="73" TopLine="434"/>
+      </Position3>
+      <Position4>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="565" Column="28" TopLine="549"/>
+      </Position4>
+      <Position5>
+        <Filename Value="UMainForm.pas"/>
+      </Position5>
+      <Position6>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="125" Column="17" TopLine="105"/>
+      </Position6>
+      <Position7>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="208" Column="39" TopLine="193"/>
+      </Position7>
+      <Position8>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="395" Column="35" TopLine="389"/>
+      </Position8>
+      <Position9>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="439" Column="31" TopLine="430"/>
+      </Position9>
+      <Position10>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="557" Column="43" TopLine="537"/>
+      </Position10>
+      <Position11>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="556" Column="46" TopLine="546"/>
+      </Position11>
+      <Position12>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="165" Column="3" TopLine="162"/>
+      </Position12>
+      <Position13>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="160" Column="11" TopLine="157"/>
+      </Position13>
+      <Position14>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="562" Column="21" TopLine="549"/>
+      </Position14>
+      <Position15>
+        <Filename Value="UMainForm.pas"/>
+      </Position15>
+      <Position16>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="125" TopLine="105"/>
+      </Position16>
+      <Position17>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="393" TopLine="378"/>
+      </Position17>
+      <Position18>
+        <Filename Value="UGlobal.pas"/>
+        <Caret Line="187" TopLine="171"/>
+      </Position18>
+      <Position19>
+        <Filename Value="UGlobal.pas"/>
+        <Caret Line="8" Column="38"/>
+      </Position19>
+      <Position20>
+        <Filename Value="UGlobal.pas"/>
+        <Caret Line="12" Column="9"/>
+      </Position20>
+      <Position21>
+        <Filename Value="UGlobal.pas"/>
+        <Caret Line="13" Column="9"/>
+      </Position21>
+      <Position22>
+        <Filename Value="UGlobal.pas"/>
+        <Caret Line="14" Column="9"/>
+      </Position22>
+      <Position23>
+        <Filename Value="UGlobal.pas"/>
+        <Caret Line="15" Column="9"/>
+      </Position23>
+      <Position24>
+        <Filename Value="UGlobal.pas"/>
+        <Caret Line="16" Column="39"/>
+      </Position24>
+      <Position25>
+        <Filename Value="UDevice.pas"/>
+        <Caret Line="17" Column="17" TopLine="10"/>
+      </Position25>
+      <Position26>
+        <Filename Value="UDevice.pas"/>
+        <Caret Line="38" Column="47" TopLine="18"/>
+      </Position26>
+      <Position27>
+        <Filename Value="UDevice.pas"/>
+        <Caret Line="135" Column="18" TopLine="114"/>
+      </Position27>
+      <Position28>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="627" Column="54" TopLine="612"/>
+      </Position28>
+      <Position29>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="174" Column="22" TopLine="149"/>
+      </Position29>
+      <Position30>
+        <Filename Value="UMainForm.pas"/>
+        <Caret Line="401" Column="40" TopLine="380"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

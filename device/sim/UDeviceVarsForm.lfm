@@ -1,0 +1,35 @@
+object DeviceVarsForm: TDeviceVarsForm
+  Left = 298
+  Height = 366
+  Top = 280
+  Width = 356
+  Caption = 'Device Vars'
+  ClientHeight = 366
+  ClientWidth = 356
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object VarsDrawGrid: TDrawGrid
+    Left = 0
+    Height = 366
+    Top = 0
+    Width = 356
+    Align = alClient
+    AlternateColor = 15263976
+    ColCount = 4
+    DefaultColWidth = 32
+    DefaultRowHeight = 17
+    ExtendedSelect = False
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goColSizing, goEditing, goTabs, goThumbTracking, goSmoothScroll]
+    ScrollBars = ssBoth
+    TabOrder = 0
+    OnDrawCell = VarsDrawGridDrawCell
+    OnEditingDone = VarsDrawGridEditingDone
+    OnGetEditText = VarsDrawGridGetEditText
+    OnSetEditText = VarsDrawGridSetEditText
+  end
+  object UpdateTimer: TTimer
+    OnTimer = UpdateTimerTimer
+    left = 149
+    top = 117
+  end
+end
