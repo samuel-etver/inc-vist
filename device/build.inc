@@ -1,0 +1,6 @@
+#define BUILD_DAY		6
+#define BUILD_MON		4
+#define BUILD_YEAR		2020
+
+#define BUILD_DATE_STR		"2020-04-06"
+#define BUILD_DATE_STR_LEN	10
