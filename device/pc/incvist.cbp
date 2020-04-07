@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="incvist" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option extended_obj_names="1" />
+		<Build>
+			<Target title="incvist">
+				<Option platforms="Windows;" />
+				<Option output="bin/incvist/incvist" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/incvist/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-march=i686" />
+					<Add option="-Os" />
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-DPD_PC" />
+					<Add option="-DDVC_NK" />
+					<Add directory="../dvc" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+					<Add directory="obj/Release/Dvc" />
+					<Add directory="obj/Release/Pc" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../Dvc/AboutDevice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/AboutDevice.h" />
+		<Unit filename="../Dvc/AboutManufacturer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/AboutManufacturer.h" />
+		<Unit filename="../Dvc/Accelerometer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/Accelerometer.h" />
+		<Unit filename="../Dvc/Archive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/AutoOff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/AutoOff.h" />
+		<Unit filename="../Dvc/Balloons.h" />
+		<Unit filename="../Dvc/ChipCheck.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/ChipCheck.h" />
+		<Unit filename="../Dvc/ClearMem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/ClearMem.h" />
+		<Unit filename="../Dvc/DeviceType.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/DeviceType.h" />
+		<Unit filename="../Dvc/Factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/Factory.h" />
+		<Unit filename="../Dvc/FirstProduced.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/FirstProduced.h" />
+		<Unit filename="../Dvc/Flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/FlashDump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/FlashDump.h" />
+		<Unit filename="../Dvc/HardwareFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/HardwareFilter.h" />
+		<Unit filename="../Dvc/IncArchive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/IncArchive.h" />
+		<Unit filename="../Dvc/IncClearMem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/IncClearMem.h" />
+		<Unit filename="../Dvc/IncMeasure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/IncMeasure.h" />
+		<Unit filename="../Dvc/IncMeasureMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/IncMeasureMode.h" />
+		<Unit filename="../Dvc/IncMem.h" />
+		<Unit filename="../Dvc/IncMemory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/IncMemory.h" />
+		<Unit filename="../Dvc/IncParams.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/IncParams.h" />
+		<Unit filename="../Dvc/IncTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/IncTest.h" />
+		<Unit filename="../Dvc/IonCalibration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/IonCalibration.h" />
+		<Unit filename="../Dvc/KeybrdSound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/KeybrdSound.h" />
+		<Unit filename="../Dvc/ManualOff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/ManualOff.h" />
+		<Unit filename="../Dvc/ManualOff_pd.h" />
+		<Unit filename="../Dvc/MeasureAdc.h" />
+		<Unit filename="../Dvc/MeasureAmplifier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/MeasureAmplifier.h" />
+		<Unit filename="../Dvc/MeasureHardwareTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/MeasureHardwareTest.h" />
+		<Unit filename="../Dvc/MeasureMode.h" />
+		<Unit filename="../Dvc/MeasuringTract.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/MeasuringTract.h" />
+		<Unit filename="../Dvc/Memory.h" />
+		<Unit filename="../Dvc/Overloaded.h" />
+		<Unit filename="../Dvc/OverloadedUser.h" />
+		<Unit filename="../Dvc/OverloadedValueMin.h" />
+		<Unit filename="../Dvc/Pictures.h" />
+		<Unit filename="../Dvc/Status.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/Status.h" />
+		<Unit filename="../Dvc/SupplySource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/SupplySource.h" />
+		<Unit filename="../Dvc/SupplySource_pd.h" />
+		<Unit filename="../Dvc/Test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/TextResources.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/TextResources.h" />
+		<Unit filename="../Dvc/TextResources_pd.h" />
+		<Unit filename="../Dvc/Theme.h" />
+		<Unit filename="../Dvc/VistArchive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VistArchive.h" />
+		<Unit filename="../Dvc/VistCalibration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VistCalibration.h" />
+		<Unit filename="../Dvc/VistClearMem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VistClearMem.h" />
+		<Unit filename="../Dvc/VistMeasure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VistMeasure.h" />
+		<Unit filename="../Dvc/VistMemory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VistMemory.h" />
+		<Unit filename="../Dvc/VistParams.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VistParams.h" />
+		<Unit filename="../Dvc/VistSensor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VistSensor.h" />
+		<Unit filename="../Dvc/VistTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VistTest.h" />
+		<Unit filename="../Dvc/VoltageDown.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/VoltageDown.h" />
+		<Unit filename="../Dvc/ZeroCalibration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/ZeroCalibration.h" />
+		<Unit filename="../Dvc/ad7792.h" />
+		<Unit filename="../Dvc/ad7792_pd.h" />
+		<Unit filename="../Dvc/adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/adc.h" />
+		<Unit filename="../Dvc/adc_pd.h" />
+		<Unit filename="../Dvc/adxl343.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/adxl343.h" />
+		<Unit filename="../Dvc/adxl343_pd.h" />
+		<Unit filename="../Dvc/archive.h" />
+		<Unit filename="../Dvc/ask.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/ask.h" />
+		<Unit filename="../Dvc/at91sam7s256.h" />
+		<Unit filename="../Dvc/balloons.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/build.h" />
+		<Unit filename="../Dvc/calendar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/calendar.h" />
+		<Unit filename="../Dvc/calendar_pd.h" />
+		<Unit filename="../Dvc/cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/cfg.h" />
+		<Unit filename="../Dvc/common.h" />
+		<Unit filename="../Dvc/delay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/delay.h" />
+		<Unit filename="../Dvc/factor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/factor.h" />
+		<Unit filename="../Dvc/flash.h" />
+		<Unit filename="../Dvc/flash_pd.h" />
+		<Unit filename="../Dvc/fonts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/fonts.h" />
+		<Unit filename="../Dvc/iic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/iic.h" />
+		<Unit filename="../Dvc/iic_pd.h" />
+		<Unit filename="../Dvc/keybrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/keybrd.h" />
+		<Unit filename="../Dvc/keybrd_pd.h" />
+		<Unit filename="../Dvc/language.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/language.h" />
+		<Unit filename="../Dvc/lcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/lcd.h" />
+		<Unit filename="../Dvc/lcd_pd.h" />
+		<Unit filename="../Dvc/light.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/light.h" />
+		<Unit filename="../Dvc/light_pd.h" />
+		<Unit filename="../Dvc/loadcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/loadcfg.h" />
+		<Unit filename="../Dvc/max7400.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/max7400.h" />
+		<Unit filename="../Dvc/max7400_pd.h" />
+		<Unit filename="../Dvc/measure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/measure.h" />
+		<Unit filename="../Dvc/measure_pd.h" />
+		<Unit filename="../Dvc/mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/mem.h" />
+		<Unit filename="../Dvc/memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/menu.h" />
+		<Unit filename="../Dvc/password.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/password.h" />
+		<Unit filename="../Dvc/pga113.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/pga113.h" />
+		<Unit filename="../Dvc/pga113_pd.h" />
+		<Unit filename="../Dvc/pictures.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/power.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/power.h" />
+		<Unit filename="../Dvc/power_pd.h" />
+		<Unit filename="../Dvc/product.h" />
+		<Unit filename="../Dvc/sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/sound.h" />
+		<Unit filename="../Dvc/sound_pd.h" />
+		<Unit filename="../Dvc/splash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/splash.h" />
+		<Unit filename="../Dvc/system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/system.h" />
+		<Unit filename="../Dvc/system_pd.h" />
+		<Unit filename="../Dvc/test.h" />
+		<Unit filename="../Dvc/theme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/usb.h" />
+		<Unit filename="../Dvc/usb_pd.h" />
+		<Unit filename="../Dvc/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/utils.h" />
+		<Unit filename="../Dvc/xmain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Dvc/xmain.h" />
+		<Unit filename="ManualOff_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SupplySource_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="adc_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="adxl343_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="calendar_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dllmain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dllmain.h" />
+		<Unit filename="flash_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="iic_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="keybrd_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lcd_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="light_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="max7400_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="measure_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pga113_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="power_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sound_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="system_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="usb_pd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

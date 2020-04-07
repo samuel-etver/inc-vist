@@ -3,9 +3,16 @@ backup
 desktop/IncvistPicture/lib
 desktop/Incvist/lib
 device/sim/lib
+device/pc/bin
+device/pc/obj
+device/dvc/all
+device/dvc/templates/Drivers
+device/dvc/templates/EWARM
+device/dvc/settings
 
 *.exe
 *.dll
 incvist.archive
+Backup *.*
 
 .jython_cache
