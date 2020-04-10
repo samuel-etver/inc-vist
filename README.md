@@ -4,6 +4,7 @@
 
 <p>
 IAR-7.60.2<br>
+STM32CubeMX-4.25.1<br>
 Code::Blocks-20.03 with MinGW-5.1.0<br>
 Jython-2.7.2 with jdk-1.8.0_221<br>
 Lazarus-2.0.6<br>
