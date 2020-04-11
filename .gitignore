@@ -7,7 +7,6 @@ device/sim/lib
 device/pc/bin
 device/pc/obj
 device/dvc/all
-device/dvc/templates/Drivers
 device/dvc/templates/EWARM
 device/dvc/settings
 
