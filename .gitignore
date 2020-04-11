@@ -11,8 +11,8 @@ device/dvc/templates/Drivers
 device/dvc/templates/EWARM
 device/dvc/settings
 
-*.exe
-*.dll
+Incvist.exe
+IncvistPicture.exe
 incvist.archive
 Backup *.*
 
