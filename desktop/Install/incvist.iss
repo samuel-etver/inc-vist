@@ -5,7 +5,7 @@
 #define MainAppPublisher "<MANUFACTURER>"
 #define MainAppURL "http://www.<manufacturer>.com"
 #define MyPrDir ".."
-#define DriverDir "..\IncVistUSB"
+#define DriverDir "..\incvistUSB"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -90,10 +90,9 @@ Source: "{#MyPrDir}\Incvist\Incvist.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyPrDir}\Incvist\incvist.resources"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyPrDir}\IncvistPicture\IncvistPicture.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyPrDir}\IncvistPicture\IncvistPicture.resources"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "{#DriverDir}\*"; Excludes: "*.exe"; Flags: recursesubdirs; DestDir: "{app}\driver"; Tasks: installdriver
-;Source: "{#DriverDir}\x86\libusb0_x86.dll"; DestName: "libusb0.dll"; DestDir: "{sys}"; Tasks: installdriver; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX86;
-;Source: "{#DriverDir}\amd64\libusb0.dll"; DestDir: "{sys}"; Tasks: installdriver; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX64;
-;Source: "{#DriverDir}\ia64\libusb0.dll"; DestDir: {sys}; Tasks: installdriver; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsI64;
+Source: "{#DriverDir}\*"; Excludes: "*.exe"; Flags: recursesubdirs; DestDir: "{app}\driver"; Tasks: installdriver
+Source: "{#DriverDir}\x86\libusb0_x86.dll"; DestName: "libusb0.dll"; DestDir: "{sys}"; Tasks: installdriver; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX86;
+Source: "{#DriverDir}\amd64\libusb0.dll"; DestDir: "{sys}"; Tasks: installdriver; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX64;
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
@@ -103,5 +102,5 @@ Name: "{group}\{cm:UninstallProgram,{cm:MainAppName}}"; Filename: "{uninstallexe
 
 [Run]
 ; invoke libusb's DLL to install the .inf file
-;Filename: "rundll32"; Parameters: "libusb0.dll,usb_install_driver_np_rundll {app}\driver\???.inf"; Tasks: installdriver; StatusMsg: {cm:InstallingDriverMsg}
+Filename: "rundll32"; Parameters: "libusb0.dll,usb_install_driver_np_rundll {app}\driver\incvist.inf"; Tasks: installdriver; StatusMsg: {cm:InstallingDriverMsg}
 
