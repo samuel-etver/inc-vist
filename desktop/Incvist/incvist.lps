@@ -70,8 +70,7 @@
       <Unit6>
         <Filename Value="UGlobal.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="35" Y="48"/>
+        <CursorPos X="9" Y="11"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
       </Unit6>
@@ -181,9 +180,11 @@
         <ComponentName Value="ReadForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="28" Y="272"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="164"/>
+        <CursorPos X="13" Y="181"/>
         <UsageCount Value="201"/>
+        <Loaded Value="True"/>
       </Unit17>
       <Unit18>
         <Filename Value="UDeviceData.pas"/>
@@ -261,18 +262,21 @@
       <Unit26>
         <Filename Value="UAnalyzer.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="61"/>
         <CursorPos Y="77"/>
         <UsageCount Value="201"/>
+        <Loaded Value="True"/>
       </Unit26>
       <Unit27>
         <Filename Value="UAnalyzer0001.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="106"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="89"/>
         <CursorPos X="47" Y="131"/>
         <UsageCount Value="201"/>
+        <Loaded Value="True"/>
       </Unit27>
       <Unit28>
         <Filename Value="UCfgFile.pas"/>

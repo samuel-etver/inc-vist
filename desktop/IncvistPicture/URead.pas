@@ -199,13 +199,15 @@ begin
   UGlobal.ProductVersion := Integer(ProductSpecification[1]);
   UGlobal.ProductModel   := Integer(ProductSpecification[2]);
 
-  F := (ProductId = 61) or (ProductId = 62);
+  F := (ProductId = 61)
+    or (ProductId = 62)
+    or (ProductId = 63);
   Check(F, WRONG_DEVICE);
 
-  F := ProductVersion = $0240;
+  F := ProductVersion = $0300;
   Check(F, WRONG_VERSION);
 
-  F := ProductModel = $0002;
+  F := ProductModel = $0001;
   Check(F, WRONG_MODEL);
 
   Check(FUsb.GetScreenWidth(FScreenW), TIMEOUT_ERROR);
