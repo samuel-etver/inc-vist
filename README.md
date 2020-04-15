@@ -42,7 +42,7 @@ RealWorld Paint-2013.1<br>
 ### The "Reference supply source" screen
 ![](screenshots/device/image10.png)
 
-### The "Zero calibraion" screen
+### The "Zero calibration" screen
 ![](screenshots/device/image11.png)
 
 ### The "Measuring tract" screen
