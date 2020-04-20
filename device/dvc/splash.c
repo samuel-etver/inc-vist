@@ -22,10 +22,6 @@ void ShowSplashIni(void)
 
   AboutDrawDevice(24);
 
-  LcdSetFont(FONT10);
-  LcdSetLabelTextColorDef();
-  LcdDrawCaLangText(LCD_W/2, 130, 15);
-
   LcdDrawEnd();
 }
 
