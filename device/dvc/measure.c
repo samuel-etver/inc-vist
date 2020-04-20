@@ -230,8 +230,7 @@ void MeasureMeasure(void)
       MeasureResetMinMax();
 
       tmp = 100.0f/ADC_CODE_MAX*
-       (fabs((INT16)MeasureAdcValueMax - (INT16)MeasureAdcValueMin))/
-       MEASUREAMPLIFIER_GET_KI(MeasureAdcValueMinMaxKInd);
+        fabs((INT16)MeasureAdcValueMax - (INT16)MeasureAdcValueMin);
       if(tmp > 100.0f)
         tmp = 100.0f;
       MeasureSignalLevel = tmp;
