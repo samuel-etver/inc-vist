@@ -1,4 +1,5 @@
 # inc-vist
+![](photos/photo1.jpg)
 
 ## Used tools
 
