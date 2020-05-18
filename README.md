@@ -1,5 +1,10 @@
 # inc-vist
 
+A handheld device for measuring  tension, frequency, vibromotion, vibrovelocity and vibroacceleration.
+The scheme is included. 
+The device simulator is included.
+Desktop applications are included.
+
 ![](photos/photo1.jpg)
 
 ## Used tools
