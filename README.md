@@ -109,6 +109,14 @@ RealWorld Paint-2013.1<br>
 ### The "VIST measure" screen
 ![](screenshots/device/image32.png)
 
+### The desktop application to get device screenshots
+![](screenshots/desktop/image1.png)
+![](screenshots/desktop/image2.png)
+
+### The desktop application to handle (read, save, export, print and etc) results of measures.
+![](screenshots/desktop/image3.png)
+
+
 
 
 
