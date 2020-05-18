@@ -1,4 +1,5 @@
 # inc-vist
+
 ![](photos/photo1.jpg)
 
 ## Used tools
@@ -25,7 +26,7 @@ RealWorld Paint-2013.1<br>
 ### The "Measure mode" screen
 ![](screenshots/device/image04.png)
 
-### The "Enter password" screen
+### The "Enter password" screen (Password: "Arrow Up", "Arrow Down", "F")
 ![](screenshots/device/image05.png)
 
 ### The "Engineering submenu" screen
@@ -113,7 +114,7 @@ RealWorld Paint-2013.1<br>
 ![](screenshots/desktop/image1.png)
 ![](screenshots/desktop/image2.png)
 
-### The desktop application to handle (read, save, export, print and etc) results of measures.
+### The desktop application to handle (read, save, export, print and etc) results of measures
 ![](screenshots/desktop/image3.png)
 
 
